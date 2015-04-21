@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EF4215A1AE6128B000DB522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF421591AE6128B000DB522 /* AppDelegate.swift */; };
+		4EF4215C1AE6128B000DB522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4215B1AE6128B000DB522 /* ViewController.swift */; };
+		4EF4215F1AE6128B000DB522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4215D1AE6128B000DB522 /* Main.storyboard */; };
+		4EF421611AE6128B000DB522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF421601AE6128B000DB522 /* Images.xcassets */; };
+		4EF421641AE6128B000DB522 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF421621AE6128B000DB522 /* LaunchScreen.xib */; };
+		4EF421701AE6128B000DB522 /* TosinAfolabiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4216F1AE6128B000DB522 /* TosinAfolabiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EF4216A1AE6128B000DB522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF4214C1AE6128A000DB522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF421531AE6128A000DB522;
+			remoteInfo = TosinAfolabi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EF421541AE6128B000DB522 /* TosinAfolabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TosinAfolabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF421581AE6128B000DB522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF421591AE6128B000DB522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EF4215B1AE6128B000DB522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EF4215E1AE6128B000DB522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EF421601AE6128B000DB522 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EF421631AE6128B000DB522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EF421691AE6128B000DB522 /* TosinAfolabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TosinAfolabiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF4216E1AE6128B000DB522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF4216F1AE6128B000DB522 /* TosinAfolabiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TosinAfolabiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF421511AE6128A000DB522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF421661AE6128B000DB522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF4214B1AE6128A000DB522 = {
+			isa = PBXGroup;
+			children = (
+				4EF421561AE6128B000DB522 /* TosinAfolabi */,
+				4EF4216C1AE6128B000DB522 /* TosinAfolabiTests */,
+				4EF421551AE6128B000DB522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF421551AE6128B000DB522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF421541AE6128B000DB522 /* TosinAfolabi.app */,
+				4EF421691AE6128B000DB522 /* TosinAfolabiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF421561AE6128B000DB522 /* TosinAfolabi */ = {
+			isa = PBXGroup;
+			children = (
+				4EF421591AE6128B000DB522 /* AppDelegate.swift */,
+				4EF4215B1AE6128B000DB522 /* ViewController.swift */,
+				4EF4215D1AE6128B000DB522 /* Main.storyboard */,
+				4EF421601AE6128B000DB522 /* Images.xcassets */,
+				4EF421621AE6128B000DB522 /* LaunchScreen.xib */,
+				4EF421571AE6128B000DB522 /* Supporting Files */,
+			);
+			path = TosinAfolabi;
+			sourceTree = "<group>";
+		};
+		4EF421571AE6128B000DB522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EF421581AE6128B000DB522 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EF4216C1AE6128B000DB522 /* TosinAfolabiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4216F1AE6128B000DB522 /* TosinAfolabiTests.swift */,
+				4EF4216D1AE6128B000DB522 /* Supporting Files */,
+			);
+			path = TosinAfolabiTests;
+			sourceTree = "<group>";
+		};
+		4EF4216D1AE6128B000DB522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4216E1AE6128B000DB522 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF421531AE6128A000DB522 /* TosinAfolabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF421731AE6128B000DB522 /* Build configuration list for PBXNativeTarget "TosinAfolabi" */;
+			buildPhases = (
+				4EF421501AE6128A000DB522 /* Sources */,
+				4EF421511AE6128A000DB522 /* Frameworks */,
+				4EF421521AE6128A000DB522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TosinAfolabi;
+			productName = TosinAfolabi;
+			productReference = 4EF421541AE6128B000DB522 /* TosinAfolabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EF421681AE6128B000DB522 /* TosinAfolabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF421761AE6128B000DB522 /* Build configuration list for PBXNativeTarget "TosinAfolabiTests" */;
+			buildPhases = (
+				4EF421651AE6128B000DB522 /* Sources */,
+				4EF421661AE6128B000DB522 /* Frameworks */,
+				4EF421671AE6128B000DB522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF4216B1AE6128B000DB522 /* PBXTargetDependency */,
+			);
+			name = TosinAfolabiTests;
+			productName = TosinAfolabiTests;
+			productReference = 4EF421691AE6128B000DB522 /* TosinAfolabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF4214C1AE6128A000DB522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tosin Afolabi";
+				TargetAttributes = {
+					4EF421531AE6128A000DB522 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4EF421681AE6128B000DB522 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4EF421531AE6128A000DB522;
+					};
+				};
+			};
+			buildConfigurationList = 4EF4214F1AE6128A000DB522 /* Build configuration list for PBXProject "TosinAfolabi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EF4214B1AE6128A000DB522;
+			productRefGroup = 4EF421551AE6128B000DB522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF421531AE6128A000DB522 /* TosinAfolabi */,
+				4EF421681AE6128B000DB522 /* TosinAfolabiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EF421521AE6128A000DB522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF4215F1AE6128B000DB522 /* Main.storyboard in Resources */,
+				4EF421641AE6128B000DB522 /* LaunchScreen.xib in Resources */,
+				4EF421611AE6128B000DB522 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF421671AE6128B000DB522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EF421501AE6128A000DB522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF4215C1AE6128B000DB522 /* ViewController.swift in Sources */,
+				4EF4215A1AE6128B000DB522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF421651AE6128B000DB522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF421701AE6128B000DB522 /* TosinAfolabiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EF4216B1AE6128B000DB522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EF421531AE6128A000DB522 /* TosinAfolabi */;
+			targetProxy = 4EF4216A1AE6128B000DB522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EF4215D1AE6128B000DB522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF4215E1AE6128B000DB522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EF421621AE6128B000DB522 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF421631AE6128B000DB522 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EF421711AE6128B000DB522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EF421721AE6128B000DB522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EF421741AE6128B000DB522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TosinAfolabi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EF421751AE6128B000DB522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TosinAfolabi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EF421771AE6128B000DB522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TosinAfolabiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TosinAfolabi.app/TosinAfolabi";
+			};
+			name = Debug;
+		};
+		4EF421781AE6128B000DB522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TosinAfolabiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TosinAfolabi.app/TosinAfolabi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EF4214F1AE6128A000DB522 /* Build configuration list for PBXProject "TosinAfolabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF421711AE6128B000DB522 /* Debug */,
+				4EF421721AE6128B000DB522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF421731AE6128B000DB522 /* Build configuration list for PBXNativeTarget "TosinAfolabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF421741AE6128B000DB522 /* Debug */,
+				4EF421751AE6128B000DB522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EF421761AE6128B000DB522 /* Build configuration list for PBXNativeTarget "TosinAfolabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF421771AE6128B000DB522 /* Debug */,
+				4EF421781AE6128B000DB522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EF4214C1AE6128A000DB522 /* Project object */;
+}
