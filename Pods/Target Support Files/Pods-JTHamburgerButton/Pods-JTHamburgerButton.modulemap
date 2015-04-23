@@ -1,0 +1,6 @@
+framework module JTHamburgerButton {
+  umbrella header "Pods-JTHamburgerButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

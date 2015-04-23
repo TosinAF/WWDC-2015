@@ -1,0 +1,16 @@
+PODS:
+  - Cartography (0.5.0)
+  - JTHamburgerButton (1.0.2)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - Cartography
+  - JTHamburgerButton
+  - pop
+
+SPEC CHECKSUMS:
+  Cartography: 774e5cc446f5a6bca5d4345c5aa6af9a1fe74dc6
+  JTHamburgerButton: aa5f968476516d8d1da386c540a07952de21e28a
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+COCOAPODS: 0.36.0
