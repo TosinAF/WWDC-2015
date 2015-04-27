@@ -84,6 +84,8 @@ class A8ViewController: A0ViewController {
     
     func togglePressed(sender: JTHamburgerButton) {
         
+        NSNotificationCenter.defaultCenter().postNotificationName("menuButtonClicked", object: nil)
+        
         if sender.currentMode == .Hamburger {
             sender.setCurrentModeWithAnimation(.Cross)
         } else if sender.currentMode == .Cross {

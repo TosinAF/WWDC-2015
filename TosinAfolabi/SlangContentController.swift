@@ -41,19 +41,19 @@ enum SlangContentType {
             if iPhone6Or6Plus {
                 return UIImage(named: "S1")!
             } else {
-                return UIImage(named: "RouteScreenshot_i5")!
+                return UIImage(named: "S1_i5")!
             }
         case .RealTime:
             if iPhone6Or6Plus {
                 return UIImage(named: "S2")!
             } else {
-                return UIImage(named: "RealTimeScreenshot_i5")!
+                return UIImage(named: "S2_i5")!
             }
         case .RouteTimes:
             if iPhone6Or6Plus {
                 return UIImage(named: "S3")!
             } else {
-                return UIImage(named: "RouteTimesScreenshot_i5")!
+                return UIImage(named: "S3_i5")!
             }
         }
     }

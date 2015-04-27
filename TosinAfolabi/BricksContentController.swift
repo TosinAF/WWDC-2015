@@ -45,25 +45,25 @@ enum BricksContentType {
             if iPhone6Or6Plus {
                 return UIImage(named: "Bricks1")!
             } else {
-                return UIImage(named: "RouteScreenshot_i5")!
+                return UIImage(named: "Bricks1_i5")!
             }
         case .RealTime:
             if iPhone6Or6Plus {
                 return UIImage(named: "Bricks2")!
             } else {
-                return UIImage(named: "RealTimeScreenshot_i5")!
+                return UIImage(named: "Bricks2_i5")!
             }
         case .RouteTimes:
             if iPhone6Or6Plus {
                 return UIImage(named: "Bricks3")!
             } else {
-                return UIImage(named: "RouteTimesScreenshot_i5")!
+                return UIImage(named: "Bricks3_i5")!
             }
         case .Map:
             if iPhone6Or6Plus {
                 return UIImage(named: "Bricks4")!
             } else {
-                return UIImage(named: "MapScreenshot_i5")!
+                return UIImage(named: "Bricks4_i5")!
             }
         }
     }

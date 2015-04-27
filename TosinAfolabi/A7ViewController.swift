@@ -63,7 +63,7 @@ class A7ViewController: A0ViewController {
         l5.textColor = UIColor(red:0.906, green:0.298, blue:0.235, alpha: 1)
         
         let l6 = AboutSectionLabel()
-        l6.text = "OF EM"
+        l6.text = "OF THEM"
         l6.font = UIFont(name: "Montserrat-Regular", size: 40.0)
         l6.textColor = UIColor(red:0.906, green:0.298, blue:0.235, alpha: 1)
         
@@ -93,6 +93,8 @@ class A7ViewController: A0ViewController {
     }
     
     func togglePressed(sender: JTHamburgerButton) {
+        
+        NSNotificationCenter.defaultCenter().postNotificationName("menuButtonClicked", object: nil)
         
         if sender.currentMode == .Hamburger {
             sender.setCurrentModeWithAnimation(.Cross)

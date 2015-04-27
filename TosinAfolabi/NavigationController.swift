@@ -23,6 +23,7 @@ class NavigationController: UINavigationController, UINavigationControllerDelega
         
         //delegate = NavControllerDelegate()
         
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showMenu", name:"menuButtonClicked", object: nil)
         navDelegate = NavControllerDelegate()
         delegate = self
         
@@ -65,6 +66,10 @@ class NavigationController: UINavigationController, UINavigationControllerDelega
     
     func showMenu() {
         showMediumMenu()
+    }
+    
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: "menuButtonClicked", object: nil)
     }
 }
 

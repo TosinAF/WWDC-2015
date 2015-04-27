@@ -47,6 +47,8 @@ class HopperBusViewController: UIViewController {
         return button
         }()
     
+    var lastLocation = CGPointZero
+    
     // MARK: - Initializers
     
     init() {
@@ -96,6 +98,8 @@ class HopperBusViewController: UIViewController {
             }
         }
     }
+    
+
     
     // MARK: - Actions
     

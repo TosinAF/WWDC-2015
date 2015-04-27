@@ -84,6 +84,11 @@ class A2ViewController: A0ViewController {
         l7.text = "CS STUDENT"
         l7.textColor = UIColor(red:0.424, green:0.478, blue:0.537, alpha: 1)
         
+        let l8 = AboutSectionLabel()
+        l8.text = "ON A FULL TIME UNIVERSITY COURSE"
+        l8.textColor = UIColor(red:0.424, green:0.478, blue:0.537, alpha: 1)
+        l8.font = UIFont(name: "Montserrat-Regular", size: 16.5)
+        
         view.addSubview(l1)
         view.addSubview(l2)
         view.addSubview(l3)
@@ -91,6 +96,7 @@ class A2ViewController: A0ViewController {
         view.addSubview(l5)
         view.addSubview(l6)
         view.addSubview(l7)
+        view.addSubview(l8)
         view.addSubview(iconLabel)
         view.addSubview(iconLabel2)
         view.addSubview(iconLabel3)
@@ -106,6 +112,7 @@ class A2ViewController: A0ViewController {
             "l5":l5,
             "l6":l6,
             "l7":l7,
+            "l8":l8,
             "i1": iconLabel,
             "i2": iconLabel2,
             "i3": iconLabel3
@@ -117,6 +124,8 @@ class A2ViewController: A0ViewController {
     }
     
     func togglePressed(sender: JTHamburgerButton) {
+        
+        NSNotificationCenter.defaultCenter().postNotificationName("menuButtonClicked", object: nil)
         
         if sender.currentMode == .Hamburger {
             sender.setCurrentModeWithAnimation(.Cross)
@@ -137,8 +146,9 @@ class A2ViewController: A0ViewController {
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-30-[l5]", options: nil, metrics: nil, views: views))
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-30-[l6]", options: nil, metrics: nil, views: views))
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-30-[l7]", options: nil, metrics: nil, views: views))
+        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-30-[l8]", options: nil, metrics: nil, views: views))
         
-        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:[l1][l2][l3][l4][l5][l6][l7]-50-|", options: nil, metrics: nil, views: views))
+        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:[l1][l2][l3][l4][l5][l6][l7][l8]-50-|", options: nil, metrics: nil, views: views))
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-25-[i1]-10-[i2]-10-[i3]", options: .AlignAllCenterY, metrics: nil, views: views))
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-48-[i1]", options: .AlignAllCenterY, metrics: nil, views: views))
     }

@@ -11,7 +11,7 @@ import Cartography
 
 enum AboutType: Int {
 
-    case A1 = 0, A2, A3, A4, A5, A6, A7, A8
+    case A1 = 0, A2, A3, A4, A5, A6, A7, A8, A9
 
 }
 
@@ -32,7 +32,7 @@ class AboutViewController: UIViewController {
     
     lazy var pageControl: UIPageControl = {
         let pageControl = UIPageControl()
-        pageControl.numberOfPages = 8
+        pageControl.numberOfPages = 9
         pageControl.pageIndicatorTintColor = UIColor(red:0.204, green:0.286, blue:0.369, alpha: 1)
         pageControl.currentPageIndicatorTintColor = UIColor(red:0.424, green:0.478, blue:0.537, alpha: 1)
         pageControl.setTranslatesAutoresizingMaskIntoConstraints(false)
@@ -46,7 +46,7 @@ class AboutViewController: UIViewController {
     init() {
         super.init(nibName: nil, bundle: nil)
         vcs = [A1ViewController(), A2ViewController(), A3ViewController(), A4ViewController(),
-                A5ViewController(), A6ViewController(), A7ViewController(), A8ViewController()]
+                A5ViewController(), A6ViewController(), A7ViewController(), A8ViewController(), A9ViewController()]
         
     }
     
@@ -109,6 +109,8 @@ extension AboutViewController: UIPageViewControllerDelegate, UIPageViewControlle
             return vcs[5]
         case .A8:
             return vcs[6]
+        case .A9:
+            return vcs[7]
         }
     }
     
@@ -133,6 +135,8 @@ extension AboutViewController: UIPageViewControllerDelegate, UIPageViewControlle
         case .A7:
             return vcs[7]
         case .A8:
+            return vcs[8]
+        case .A9:
             return nil
         }
         
@@ -163,6 +167,8 @@ extension AboutViewController: UIPageViewControllerDelegate, UIPageViewControlle
             currentIndex = 6
         case .A8:
             currentIndex = 7
+        case .A9:
+            currentIndex = 8
             
         }
     }

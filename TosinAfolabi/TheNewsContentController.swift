@@ -45,25 +45,25 @@ enum TheNewsContentType {
             if iPhone6Or6Plus {
                 return UIImage(named: "PH")!
             } else {
-                return UIImage(named: "RouteScreenshot_i5")!
+                return UIImage(named: "PH_i5")!
             }
         case .RealTime:
             if iPhone6Or6Plus {
                 return UIImage(named: "PHDN")!
             } else {
-                return UIImage(named: "RealTimeScreenshot_i5")!
+                return UIImage(named: "PHDN_i5")!
             }
         case .RouteTimes:
             if iPhone6Or6Plus {
                 return UIImage(named: "Menu")!
             } else {
-                return UIImage(named: "RouteTimesScreenshot_i5")!
+                return UIImage(named: "Menu_i5")!
             }
         case .Map:
             if iPhone6Or6Plus {
                 return UIImage(named: "MOTD")!
             } else {
-                return UIImage(named: "MapScreenshot_i5")!
+                return UIImage(named: "MOTD_i5")!
             }
         }
     }

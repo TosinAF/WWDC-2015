@@ -22,7 +22,7 @@ enum ProcusesContentType {
         case .RouteTimes:
             return "FOR DESIGNERS"
         case .Map:
-            return "FOR ACCOUNT..."
+            return "FOR ACCOUNT ..."
         }
     }
     
@@ -45,25 +45,25 @@ enum ProcusesContentType {
             if iPhone6Or6Plus {
                 return UIImage(named: "P1")!
             } else {
-                return UIImage(named: "RouteScreenshot_i5")!
+                return UIImage(named: "P1_i5")!
             }
         case .RealTime:
             if iPhone6Or6Plus {
                 return UIImage(named: "P2")!
             } else {
-                return UIImage(named: "RealTimeScreenshot_i5")!
+                return UIImage(named: "P2_i5")!
             }
         case .RouteTimes:
             if iPhone6Or6Plus {
                 return UIImage(named: "P3")!
             } else {
-                return UIImage(named: "RouteTimesScreenshot_i5")!
+                return UIImage(named: "P3_i5")!
             }
         case .Map:
             if iPhone6Or6Plus {
                 return UIImage(named: "P4")!
             } else {
-                return UIImage(named: "MapScreenshot_i5")!
+                return UIImage(named: "P4_i5")!
             }
         }
     }
@@ -141,7 +141,7 @@ class ProcusesContentController: UIViewController {
         ]
         
         var vDistance = iPhone6P ? 112 : 92
-        vDistance = iPhone5 ? 75 : vDistance
+        vDistance = iPhone5 ? 69 : vDistance
         vDistance = iPhone4S ? 61 : vDistance
         
         let metrics = [
@@ -151,7 +151,7 @@ class ProcusesContentController: UIViewController {
         view.addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .CenterX, relatedBy: .Equal, toItem: view, attribute: .CenterX, multiplier: 1.0, constant: 0.0))
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-30-[info]-30-|", options: nil, metrics: nil, views: views))
         if !iPhone4S {
-            view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-15-[title]-8-[info(>=47)]-(vDistance)-[image]", options: .AlignAllCenterX, metrics: metrics, views: views))
+            view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-15-[title]-8-[info(>=46)]-(vDistance)-[image]", options: .AlignAllCenterX, metrics: metrics, views: views))
         } else {
             view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-10-[title]-2-[info]-(vDistance)-[image]", options: .AlignAllCenterX, metrics: metrics, views: views))
         }
