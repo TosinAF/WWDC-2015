@@ -7,7 +7,7 @@ WWDC 2015 Scholarship Application
 
 #### Links
 
-Youtube Video
+[Youtube Video](https://www.youtube.com/watch?v=Mo172Xj923M)
 
 Have questions, feedback, would like to collaborate? Reach out to me on Twitter: [@tosinaf](https://twitter.com/tosinaf)
 
