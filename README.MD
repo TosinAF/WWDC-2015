@@ -1,4 +1,4 @@
-WWDC 2015 Scholarship Application
+WWDC 2015 Scholarship Application (Rejected)
 ======
 
 <img src="https://raw.githubusercontent.com/TosinAF/WWDC-2015/master/Screenshots/S1.png" height="25%" width="25%" />
